@@ -21,5 +21,5 @@ module.exports = {
       },
     },
   },
-  plugins: [...config.plugins, new StdioWebpackPlugin({project: 'disarray_01'})],
+  plugins: [...config.plugins, new StdioWebpackPlugin({project: 'my-project'})],
 };

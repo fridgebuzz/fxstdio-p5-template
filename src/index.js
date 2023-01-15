@@ -1,6 +1,6 @@
 /*
- * Disarray 01
- * Vanessa Williams (fridgebuzz.tez)
+ * Project name
+ * Project author
  * Jan 3, 2023
  *
  * This code uses--with thanks--bits and pieces of templates by gorillasun.de and wandaoliver.com,
@@ -80,7 +80,7 @@ window.setup = function () {
   colorMode(HSB, 360, 100, 100, 100)
   backgroundColour = color(100)
 
-  // noLoop()
+  noLoop()
 }
 
 window.draw = function () {
